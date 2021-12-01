@@ -135,7 +135,7 @@ def mainExercise1():
 
     x, y = symbols('x y')
     symbols_list = [x, y]
-    function = x**2 - (3/2)*x*y + y**2
+    function = (x + 2*y - 7)**2 - (2*x + y - 5)**2
     partials, partials_second = [], []
     
     for element in symbols_list:
