@@ -1,0 +1,18 @@
+.repositories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.repo {
+    width: calc(50% - 4px); /* Adjust width here */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .repo {
+        width: 100%; /* Stack vertically on smaller screens */
+    }
+}
